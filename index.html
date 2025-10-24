@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DhobiXpress — Fresh Clothes. Green Future.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <meta name="description" content="DhobiXpress — fast, eco-friendly laundry pickup & delivery. Book via WhatsApp in one tap." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true">
+          <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1">
+                <stop offset="0" stop-color="#00C896" />
+                <stop offset="1" stop-color="#007BFF" />
+              </linearGradient>
+            </defs>
+            <circle cx="32" cy="32" r="30" fill="url(#g1)" />
+            <path d="M20 36c4-8 20-8 24 0" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M32 18v8" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div>
+          <h1>DhobiXpress</h1>
+          <p>Fresh Clothes. Green Future.</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#how">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <section class="hero-card">
+        <span class="eyebrow">💎 60+ Years of Trusted Laundry Service</span>
+        <h2>Quick, Clean & Earth-Friendly Laundry — right at your doorstep</h2>
+        <p class="lead">DhobiXpress uses gentle detergents, smart care and speedy pickup to bring you fresh clothes — with minimal environmental impact.</p>
+
+        <div class="features">
+          <div class="feature">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden>
+              <path d="M12 3v6" stroke="#00C896" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="12" cy="15" r="5" stroke="#007BFF" stroke-width="1.6"/>
+            </svg>
+            <div>
+              <strong>Eco Detergents</strong>
+              <div class="muted">Plant-based, biodegradable formulas</div>
+            </div>
+          </div>
+
+          <div class="feature">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden>
+              <path d="M3 12h18" stroke="#007BFF" stroke-width="1.6" stroke-linecap="round"/>
+              <path d="M12 3v18" stroke="#00C896" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+            <div>
+              <strong>Express Turnaround</strong>
+              <div class="muted">Same-day & next-day slots available</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-row" style="margin-top:16px;">
+          <button class="btn btn-primary" id="whatsapp-cta">Book on WhatsApp</button>
+          <button class="btn btn-outline" id="view-services">View Services</button>
+        </div>
+
+        <p class="tagline" style="margin-top:18px;">✨ Free Pickup & Delivery Available All Week</p>
+      </section>
+
+      <aside class="order">
+        <h3>Quick Order</h3>
+        <p class="muted">Select a service and start your WhatsApp booking.</p>
+
+        <div class="service-list">
+          <div class="service-item"><div>Washing & Ironing</div><div class="price">₹49/kg</div></div>
+          <div class="service-item"><div>Dry Cleaning</div><div class="price">From ₹120</div></div>
+          <div class="service-item"><div>Steam Press</div><div class="price">₹29/item</div></div>
+        </div>
+
+        <div style="margin-top:12px;display:flex;gap:10px">
+          <button class="btn btn-primary" id="order-wash">Order Wash</button>
+          <button class="btn" id="schedule">Schedule Pickup</button>
+        </div>
+
+        <small class="muted">Pickup within 5 km • Express slots subject to availability</small>
+      </aside>
+    </main>
+
+    <section id="services">
+      <h3>Our Services</h3>
+      <div class="services">
+        <div class="card">
+          <h4>Wash & Fold</h4>
+          <p class="muted">Gentle machine wash, eco-friendly detergents. Ideal for daily wear.</p>
+        </div>
+        <div class="card">
+          <h4>Dry Cleaning</h4>
+          <p class="muted">Stain treatment and dry-cleaning for delicate garments.</p>
+        </div>
+        <div class="card">
+          <h4>Steam Press</h4>
+          <p class="muted">Perfect finish for shirts, suits and formal wear.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how">
+      <h3>How DhobiXpress Works</h3>
+      <div class="steps">
+        <div class="step">
+          <strong>1. Tap WhatsApp</strong>
+          <div class="muted">Open the chat & tell us your pickup details.</div>
+        </div>
+        <div class="step">
+          <strong>2. Pickup</strong>
+          <div class="muted">We collect at the scheduled time.</div>
+        </div>
+        <div class="step">
+          <strong>3. Clean & Deliver</strong>
+          <div class="muted">Eco-friendly cleaning and doorstep delivery.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section id="pricing" style="margin-top:22px">
+      <h3 style="margin:6px 0 12px">Pricing — Dry Cleaning & Laundry</h3>
+      <div class="pricing-grid">
+        <!-- LEFT: Men's table (visible by default) -->
+        <div class="card" style="flex:1;min-width:320px;max-width:720px">
+          <h4>Dry Cleaning Price List — Men</h4>
+          <div class="table-wrap" id="men-table">
+            <table class="price-table">
+              <thead>
+                <tr><th style="text-align:left">Item</th><th style="text-align:right">Price</th></tr>
+              </thead>
+              <tbody>
+<!-- ---------- MEN DATA (kept exactly as provided) ---------- -->
+<tr><td>Belt</td><td style="text-align:right">₹49</td></tr>
+<tr><td>Blazer / Coat - Long</td><td style="text-align:right">₹349</td></tr>
+<tr><td>Blazer / Coat - Short</td><td style="text-align:right">₹249</td></tr>
+<tr><td>Boots leather</td><td style="text-align:right">₹399</td></tr>
+<tr><td>Cap ( Casual / Woolen )</td><td style="text-align:right">₹69</td></tr>
+<tr><td>Combo - Shirt and Pant</td><td style="text-align:right">₹199</td></tr>
+<tr><td>Dhoti / Lungi ( Silk )</td><td style="text-align:right">₹99</td></tr>
+<tr><td>Dhoti Heavy</td><td style="text-align:right">₹139</td></tr>
+<tr><td>Dhoti Normal</td><td style="text-align:right">₹99</td></tr>
+<tr><td>Formal and Casual Trousers / Pants</td><td style="text-align:right">₹99</td></tr>
+<tr><td>Gloves ( Leather )</td><td style="text-align:right">₹49</td></tr>
+<tr><td>Gloves ( Woolen )</td><td style="text-align:right">₹39</td></tr>
+<tr><td>Handkerchief</td><td style="text-align:right">₹15</td></tr>
+<tr><td>Hats</td><td style="text-align:right">₹59</td></tr>
+<tr><td>Indo Western</td><td style="text-align:right">₹499</td></tr>
+<tr><td>Jacket - Faux fur Long</td><td style="text-align:right">₹599</td></tr>
+<tr><td>Jacket - Faux fur Short</td><td style="text-align:right">₹399</td></tr>
+<tr><td>Jacket Leather</td><td style="text-align:right">₹499</td></tr>
+<tr><td>Jacket Normal Long</td><td style="text-align:right">₹299</td></tr>
+<tr><td>Jacket Normal Short</td><td style="text-align:right">₹199</td></tr>
+<tr><td>Jacket Puffer Long</td><td style="text-align:right">₹299</td></tr>
+<tr><td>Jacket Puffer Short</td><td style="text-align:right">₹199</td></tr>
+<tr><td>Jacket Rexine</td><td style="text-align:right">₹199</td></tr>
+<tr><td>Jeans</td><td style="text-align:right">₹149</td></tr>
+<tr><td>Joggers</td><td style="text-align:right">₹149</td></tr>
+<tr><td>Kurta ( Cotton )</td><td style="text-align:right">₹159</td></tr>
+<tr><td>Kurta ( Silk )</td><td style="text-align:right">₹200</td></tr>
+<tr><td>Kurta Heavy</td><td style="text-align:right">₹249</td></tr>
+<tr><td>Kurta Payjama ( Heavy )</td><td style="text-align:right">₹299</td></tr>
+<tr><td>Kurta Payjama ( Light )</td><td style="text-align:right">₹149</td></tr>
+<tr><td>Muffler ( Woolen / Pashmina )</td><td style="text-align:right">₹149</td></tr>
+<tr><td>Pagdi</td><td style="text-align:right">₹129</td></tr>
+<tr><td>Parka Coat &lt; Fur Inside &gt; Long</td><td style="text-align:right">₹299</td></tr>
+<tr><td>Parka Coat &lt; Fur Inside &gt; Short</td><td style="text-align:right">₹249</td></tr>
+<tr><td>Pocket Square</td><td style="text-align:right">₹15</td></tr>
+<tr><td>Pyjama</td><td style="text-align:right">₹79</td></tr>
+<tr><td>Safari Shirt &amp; Pant</td><td style="text-align:right">₹250</td></tr>
+<tr><td>Shawl - Toosh</td><td style="text-align:right">₹450</td></tr>
+<tr><td>Shawl - Pashmina</td><td style="text-align:right">₹299</td></tr>
+<tr><td>Shawl / Lohi</td><td style="text-align:right">₹149</td></tr>
+<tr><td>Shawl / Naga</td><td style="text-align:right">₹200</td></tr>
+<tr><td>Sherwani</td><td style="text-align:right">₹299</td></tr>
+<tr><td>Shirt</td><td style="text-align:right">₹89</td></tr>
+<tr><td>Shirt &amp; Dhoti ( Silk )</td><td style="text-align:right">₹139</td></tr>
+<tr><td>Shoes Leather / Suede / Nubuck</td><td style="text-align:right">₹299</td></tr>
+<tr><td>Shoes Sports</td><td style="text-align:right">₹199</td></tr>
+<tr><td>Shorts</td><td style="text-align:right">₹29</td></tr>
+<tr><td>Socks Pair</td><td style="text-align:right">₹19</td></tr>
+<tr><td>Suit 2 Pc</td><td style="text-align:right">₹299</td></tr>
+<tr><td>Suit 3 Pc</td><td style="text-align:right">₹399</td></tr>
+<tr><td>Sweater / Cardigan - Full Sleeve</td><td style="text-align:right">₹149</td></tr>
+<tr><td>Sweater / Cardigan - Sleeveless</td><td style="text-align:right">₹99</td></tr>
+<tr><td>Sweatshirt / Jumper</td><td style="text-align:right">₹99</td></tr>
+<tr><td>Swimming Trunks</td><td style="text-align:right">₹49</td></tr>
+<tr><td>T - Shirt</td><td style="text-align:right">₹79</td></tr>
+<tr><td>Thermal</td><td style="text-align:right">₹89</td></tr>
+<tr><td>Tie</td><td style="text-align:right">₹29</td></tr>
+<tr><td>Track Pant</td><td style="text-align:right">₹99</td></tr>
+<tr><td>Track Suit</td><td style="text-align:right">₹249</td></tr>
+<tr><td>Trousers</td><td style="text-align:right">₹99</td></tr>
+<tr><td>Turban</td><td style="text-align:right">₹119</td></tr>
+<tr><td>Vest</td><td style="text-align:right">₹29</td></tr>
+<tr><td>Waist Coat</td><td style="text-align:right">₹99</td></tr>
+<tr><td>Wallet</td><td style="text-align:right">₹49</td></tr>
+<tr><td>Wedding Sherwani set</td><td style="text-align:right">₹499</td></tr>
+<tr><td>Wedding Sherwani set Designer</td><td style="text-align:right">₹699</td></tr>
+<tr><td>Wedding Suit ( 3 pcs )</td><td style="text-align:right">₹499</td></tr>
+<tr><td>Wedding Suit Designer ( 3 pcs )</td><td style="text-align:right">₹799</td></tr>
+<tr><td>Wedding Tuxedo ( 3 pcs )</td><td style="text-align:right">₹559</td></tr>
+<tr><td>Wedding Tuxedo Designer ( 3 pcs )</td><td style="text-align:right">₹649</td></tr>
+<tr><td>Wind Cheater / Rain Jacket</td><td style="text-align:right">₹69</td></tr>
+<!-- ---------- END MEN DATA ---------- -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- RIGHT: Laundry card (unchanged) -->
+        <div class="card price-card small" style="flex:0.8;min-width:260px;max-width:380px">
+          <h4>Laundry — Wash &amp; Iron</h4>
+          <div class="lead-price">Laundry - Wash &amp; Fold — ₹79 / kg</div>
+          <table class="addons">
+            <tbody>
+              <tr><td>Fabric Softener</td><td style="text-align:right">₹5</td></tr>
+              <tr><td>Antiseptic Wash</td><td style="text-align:right">₹5</td></tr>
+            </tbody>
+          </table>
+          <div class="note">Note: Prices are indicative and may vary for heavy stains or designer garments. For bulk or subscription plans, contact us on WhatsApp.</div>
+        </div>
+      </div>
+
+      <!-- Tabs area for Women/Kids/Household (user clicks to load) -->
+      <div class="tabs-area" style="margin-top:18px">
+        <div class="tabs">
+          <button class="tab-btn" data-tab="women">Women</button>
+          <button class="tab-btn" data-tab="kids">Kids</button>
+          <button class="tab-btn" data-tab="household">Household</button>
+        </div>
+
+        <div id="tab-content" class="card tab-panel" style="margin-top:12px;display:none">
+          <!-- dynamic table will be injected here by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" style="margin-top:40px;">
+      <h3>Contact Us</h3>
+      <p class="muted">📩 Have a question? Reach out — We’ve been serving freshness for 60+ years! Free Pickup & Delivery.</p>
+
+      <form id="contactForm" style="max-width:520px;background:#fff;padding:20px;border-radius:14px;box-shadow:0 8px 20px rgba(0,0,0,0.05);">
+        <div style="margin-bottom:12px;">
+          <label for="name">Name</label><br>
+          <input type="text" id="name" name="name" required style="width:100%;padding:10px;border-radius:8px;border:1px solid #ccc;">
+        </div>
+        <div style="margin-bottom:12px;">
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" required style="width:100%;padding:10px;border-radius:8px;border:1px solid #ccc;">
+        </div>
+        <div style="margin-bottom:12px;">
+          <label for="message">Message</label><br>
+          <textarea id="message" name="message" rows="4" required style="width:100%;padding:10px;border-radius:8px;border:1px solid #ccc;"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;">Send Message</button>
+      </form>
+    </section>
+
+    <footer id="contact">
+      <div>
+        <strong>DhobiXpress</strong>
+        <div style="color:var(--muted);font-size:13px">Eco-friendly laundry & dry-cleaning</div>
+        <div style="font-size:13px;color:var(--muted);margin-top:4px">💙 60+ Years of Trusted Laundry Service • Free Pickup & Delivery</div>
+        <div style="font-size:13px;color:var(--muted);margin-top:4px">Near Angar Creation, Gandhi Nagar, Green Belt Road, Jammu, Jammu & Kashmir – 180004</div>
+      </div>
+      <div style="text-align:right">
+        <div style="font-weight:700">Ready to book?</div>
+        <div style="font-size:13px;color:var(--muted)">Tap the WhatsApp button anywhere on the page</div>
+        <div style="margin-top:6px"><a href="mailto:xpressdhobi@gmail.com" style="color:var(--primary);text-decoration:none">xpressdhobi@gmail.com</a></div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- WhatsApp floating button -->
+  <a id="wa-fab" class="whatsapp-fab" href="#" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'><path d='M20.52 3.48A11.94 11.94 0 0012 0C5.373 0 0 5.373 0 12a11.94 11.94 0 003.48 8.52L0 24l3.48-1.02A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12 0-3.2-1.25-6.16-3.48-8.52z'/><path d='M17.24 14.7c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.48-.9-.8-1.5-1.78-1.68-2.08-.17-.3-.02-.46.13-.61.12-.12.27-.3.4-.45.13-.15.17-.25.27-.42.10-.17.05-.31-.02-.47-.07-.15-.67-1.6-.92-2.2-.24-.57-.49-.5-.67-.51-.17-.01-.36-.01-.55-.01-.2 0-.5.07-.76.31-.27.24-1.03 1.01-1.03 2.47 0 1.46 1.05 2.87 1.2 3.07.15.2 2.07 3.18 5.02 4.47 2.95 1.28 2.95.85 3.48.8.53-.05 1.77-.72 2.02-1.41.25-.69.25-1.28.17-1.4-.08-.12-.28-.2-.58-.35z' fill='white'/></svg>" alt="WhatsApp" />
+    <div style="font-weight:700">Chat on WhatsApp</div>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
